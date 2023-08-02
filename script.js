@@ -31,10 +31,14 @@ function updateWeatherUI(data) {
     locationElement.textContent = `${data.name}, ${data.sys.country}`;
     tempElement.textContent = `${Math.round(data.main.temp)}°C`;
     conditionElement.textContent = data.weather[0].main;
+
+    // Apply a class based on the weather condition
+    document.body.className = `weather-${data.weather[0].main.toLowerCase()}`;
   } else {
     locationElement.textContent = 'City not found';
     tempElement.textContent = '';
     conditionElement.textContent = '';
+    document.body.className = ''; // Reset class if no weather data
   }
 }
 

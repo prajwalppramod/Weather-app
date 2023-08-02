@@ -12,9 +12,28 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #00aaff, #0077ff);
+    background: url('https://img.freepik.com/free-photo/white-cloud-sky-background_74190-4646.jpg') center/cover no-repeat;
   }
   
+  .weather-clear {
+    background-image: url('https://img.freepik.com/premium-photo/blue-sky_33836-97.jpg');
+  }
+  
+  .weather-clouds {
+    background-image: url('https://media.istockphoto.com/id/157527872/photo/storm-cloud.jpg?s=612x612&w=0&k=20&c=wsK-fd2hBm9SGlV_lnKYqFCAS3-_sk-f9GFAUbT6H40=');
+  }
+  
+  .weather-rain {
+    background-image: url('https://media.istockphoto.com/id/454413420/video/heavy-rain.jpg?s=640x640&k=20&c=gjFCLx1DBjxrbTqZgW4P0iVH8s8OO-FqW80BB4wyFzE=');
+  }
+  
+  .weather-snow {
+    background-image: url('https://previews.123rf.com/images/feelart/feelart1907/feelart190700050/127412242-snow-falling-on-sky-with-cloud-for-winter-season.jpg');
+  }
+  
+  .weather-thunderstorm {
+    background-image: url('https://media.istockphoto.com/id/517643357/photo/thunderstorm-lightning-with-dark-cloudy-sky.jpg?s=612x612&w=0&k=20&c=x3G3UijRPVGFMFExnlYGbnQtnlH6-oUoMU48BTkc0Os=');
+  }
   .weather-app {
     max-width: 400px;
     padding: 20px;
