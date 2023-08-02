@@ -51,10 +51,11 @@ searchButton.addEventListener('click', async () => {
     if (weatherData) {
       updateWeatherUI(weatherData);
     } else {
-      updateWeatherUI(null);
+      updateWeatherUI(null, 'API Limit Reached');
     }
   }
 });
+
 
 // Initial UI update (optional)
 updateWeatherUI(null);
